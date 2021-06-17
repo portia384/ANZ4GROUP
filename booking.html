@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="STYLESHEET" href="">
+    <style>
+        body{
+           text-align: center; 
+        }
+        .navbar {
+       overflow: hidden;
+      background-color:black;
+      height: 40px; 
+ }
+ address{
+     font-size:20px ;
+ }
+ .navbar a {
+        float: left;
+       display: block;
+        color: white;
+        text-align: center;
+       padding: 14px 20px;
+       text-decoration: none;
+ }
+ .navbar a.right {
+      float: right;
+ }
+ .navbar a:hover {
+      background-color:cornsilk;
+      color: black;
+ }
+ .active{
+    background-color: green;
+ }
+      input[type=text], select, textarea {
+        width: 30%;
+       padding: 5px;
+       border: 1px solid;
+       border-radius: 4px;
+       resize: vertical;
+}
+
+label {
+     padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+        background-color: blue;
+       color: white;
+       padding: 12px;
+       border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      
+}
+
+input[type=submit]:hover {
+        background-color: green;
+}
+.container {
+      border-radius: 5px;
+      background-color:whitesmoke;
+      padding: 15px;
+}
+
+  a:hover {
+    color:goldenrod ;
+    font-size: 18px;
+}
+  a  {
+      text-decoration:none ;
+      color: blue;
+  }  
+      </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="home.html">HOME</a>
+        <a href="blackimpalatshisanyama.html">BLACK IMPALA TSHISANYAMA</a>
+         <a href="aboutus.html">ABOUT US</a>
+        <a href="menu.html">MENU</a>  
+        <a href="contact.html">CONTACT</a>  
+  </div><br>
+  <div class="main" id="section1">
+    <h2><b>BOOKING </b></h2>
+     <a href="#section2">CLICK BELOW FOR PAYMENTS</a>
+    <div class="main" id="booking">
+    
+    <div class="container">
+
+        <form method="POST" action="mailto:azilemagaba@gmail.com"><br>
+            <label for="Name&Surname"> Name&Surname</label><br>
+            <input type="text" id="Name&Surname" name="Name&Surname" placeholder="enter.."><br>
+          
+            <label for="Email">Email</label><br>
+            <input type="text" id="Email" name="Email" placeholder="Email.."><br>
+
+            <label for="Cellphone">Cellphone</label><br>
+            <input type="text" id="Cellphone" name="Cellphone" placeholder="+27.."><br>
+
+            <label for="Seats">Seats</label><br>
+            <input type="text" id="Seats" name="Seats" placeholder="Seats.."><br>
+          
+            <label for="Date of Booking">Booking</label><br>
+            <input type="text" id="Date of Booking" name="Email" placeholder="booking.."><br>
+
+            <label for="Time">time</label><br>
+            <input type="text" id="time" name="time" placeholder="time.."><br>
+          
+            <label for="Message">Message</label><br>
+            <textarea id="Message" name="Message" placeholder="write something.." style="height:150px"></textarea><br>
+            <input type="submit" value="Submit"><br>
+            
+          </form>
+        </div>
+        <div class="main" id="section2">
+            <h2>PAYMENTS</h2>
+            <a href="#section1">CLICK UP Booking</a>
+        <div class="main" id="order">
+    
+                <div class="cantainer">
+
+                    <form method="POST" action="mailto:azilemagaba@gmail.com"><br>
+                    <label for="FULL NAME"> FULL NAME</label><br>
+                    <input type="text" id="FULL NAME" name="FULL NAME" placeholder="azile .magaba.."><br>
+                  
+                    <label for="Email">Email</label><br>
+                    <input type="text" id="Email" name="Email" placeholder="Email.."><br>
+        
+                    <label for="Cellphone">Cellphone</label><br>
+                    <input type="text" id="Cellphone" name="Cellphone" placeholder="+27.."><br>
+        
+                    <label for="ADDRESS">ADDRESS</label><br>
+                    <input type="text" id="ADDRESS" name="ADDRESS" placeholder="31 LOWER LONG STREET.."><br>
+                  
+                    <label for="CITY">CITY</label><br>
+                    <input type="text" id="CITY" name="Email" placeholder="CAPETOWN.."><br>
+                    <h3>WHAT YOU LIKE TO ORDER</h3>
+                    <label for="BEVARAGES">BEVARAGES</label><br>
+                    <textarea id="BEVARAGES" name="BEVARAGES" placeholder="BEVARAGES.." style="height:80px"></textarea><br>
+                    <label for="FOOD">FOOD</label><br>
+                    <textarea id="FOOD" name="Message" placeholder="FOOD.." style="height:80px"></textarea>
+            
+                   <h2> CARD DETAILS</h2>
+                    <label for="cname">Name on Card</label><br>
+                    <input type="text" id="cname" name="cardname" placeholder="AZILE MAGABA"><br>
+                    <label for="SAVING  CARD">Credit card number</label><br>
+                    <input type="text" id="SAVING CARD" name="cardnumber" placeholder="3333-4567-4567-0000"><br>
+                    <label for="expmonth">Exp Month</label><br>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="JUNE"><br>
+                    <label for="expyear">Exp Year</label><br>
+                    <input type="text" id="expyear" name="expyear" placeholder="2023"><br>
+                    <label for="cvv">CVV</label><br>
+                   <input type="text" id="cvv" name="cvv" placeholder="567"><br><br>
+                   <input type="submit" value="Submit"><br>
+                </div>
+            
+      </form>
+
+                
+                          
+</body>
+</html>
